@@ -1,0 +1,28 @@
+.slider__holder {
+  max-width: 80%;
+  margin: 160px auto 0 auto;
+  max-height: 500px;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid #1900ff;
+  box-sizing: unset;
+  overflow: hidden; }
+.slider-line {
+  display: flex;
+  transition: all ease 1s; }
+.slider-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px; }
+.slider__btn-prev {
+  margin-right: 50px;
+  width: 120px;
+  height: 40px;
+  color: #000;
+  font-weight: 600; }
+.slider__btn-next {
+  width: 120px;
+  height: 40px;
+  color: #000;
+  font-weight: 600; }
